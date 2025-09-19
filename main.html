@@ -8,6 +8,29 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+		<h1 role="heading" aria-level="1">My Accessible Portfolio</h1>
+	</header>
+	
+	<nav role="navigation" aria-label="Main navigation">
+		<ul role="list" class="nav=list">
+			<li role="listitem"><a href="#about">About</a></li>
+			<li role="listitem"><a href="#home">Home</a></li>
+			<li role="listitem"><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+
+	<section id="about" class="hero">
+		<img 
+			src="profile.jpg"
+			role="img"
+			alt="Profile"/>
+		<p role="article" class="description">
+			 Hello — I'm <strong>Sayali</strong>, a frontend developer focused on
+		      building accessible, responsive interfaces. I enjoy UI design, semantic HTML,
+		      and inclusive web experiences.
+		</p>
+	</section>
     <script type="text/javascript" src="./script.js">
 </script>
 
